@@ -59,7 +59,7 @@ body
     width: 100%;
   justify-content: space-between;
 
-   height: 100vh;
+   height: 120vh;
    background: url(/portfolio/freelancers.png) no-repeat; 
    background-size: cover;
    background-position: center;
@@ -68,6 +68,7 @@ body
    padding: 70px 10% 0;
 
 } 
+
 .home-content {
     max-width: 600px;
 }
@@ -680,7 +681,7 @@ form textarea{
     outline: none;
     width: 90%;
     padding: 18px;
-    background: #555557;
+    background: #ebebf0;
     color: #000000;
     font-size: 1rem;
     font-weight: 600;
