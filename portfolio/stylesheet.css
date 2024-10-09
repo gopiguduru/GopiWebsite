@@ -22,7 +22,7 @@ body
     padding: 20px 10%;
     background: #051129;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     z-index: 100;
 }
@@ -31,6 +31,7 @@ body
     font-size: 25px;
     color: #fff;
     text-decoration: none;
+    margin-right: 100px;
     font-weight: 600;
     cursor: default;
     opacity: 0;
@@ -41,7 +42,7 @@ body
 
 .navbar a {
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
@@ -111,7 +112,7 @@ body
     height: 40px;
     background: transparent;
     border: 2px solid #0ef;
-    border-radius: 50%;
+    border-radius: 83%;
     font-size: 20px;
     color: #0ef;
     text-decoration: none;
@@ -341,13 +342,13 @@ section{
     width: 90%;
 }
 .progress-line.css span{
-    width: 60%;
+    width: 75%;
 }
 .progress-line.javascript span{
     width: 85%;
 }
 .progress-line.python span{
-    width: 50%;
+    width: 83%;
 }
 .progress-line.react span{
     width: 75%;
@@ -369,13 +370,13 @@ section{
     content: "90%";
 }
 .progress-line.css span::after{
-    content: "60%";
+    content: "75%";
 }
 .progress-line.javascript span::after{
     content: "85%";
 }
 .progress-line.python span::after{
-    content: "50%";
+    content: "83%";
 }
 .progress-line.react span::after{
     content: "75%";
@@ -736,6 +737,44 @@ form textarea{
 }
 
 
+.skills-container {
+    display: flex;
+    justify-content: space-between; /* To spread the sections across */
+    flex-wrap: wrap; /* For responsiveness */
+    gap: 20px; /* Space between sections */
+}
+
+.container1 {
+    flex: 1; /* Equal width for both sections */
+    min-width: 300px; /* Minimum width for responsiveness */
+    padding: 20px;
+}
+
+.heading1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Technical-bars .bar, .radial-bars .radial-bar {
+    margin-bottom: 15px;
+}
+
+.radial-bar svg {
+    width: 100px;
+    height: 100px;
+}
+
+.percentage {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 25px;
+}
 
 
 
@@ -785,5 +824,5 @@ form textarea{
 @keyframes animationProgress{
     from{
         width: 0;
-    }
+    } 
 }
